@@ -2,18 +2,21 @@ name: yingjinchaoshang
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 5/6 * * *'
-jobs:  # 32268
+    - cron: '11 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yingjinchaoshang
         env:
-          qgkuc25: ${{ secrets.qgkuc25 }}
+          dm87: ${{ secrets.dm87 }}
         run: |
-          echo $qgkuc25 | jq -r .ztfxk0489 | /bin/bash
-          echo $o76269 | jq -r .a30 | /bin/bash
-          echo $dkzj3289 | jq -r .c8808 | /bin/bash
+          echo $dm87 | jq -r .ddky8606 | /bin/bash
+          echo $lxu1 | jq -r .gubq43536 | /bin/bash
+          echo $xj008 | jq -r .fhvyg43327 | /bin/bash
+          echo $yokd4 | jq -r .wujox83761 | /bin/bash
+          echo $dexi115 | jq -r .qiuhd8 | /bin/bash
+          echo $smu448 | jq -r .q060 | /bin/bash
+          echo $a99 | jq -r .ik59681 | /bin/bash
 
